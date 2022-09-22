@@ -16,8 +16,8 @@ function _10110001(_100011100, _100110001TagName) {
     _10101101s_100101001[this._100101010] = this;
     var tickerContainer = document.createElement("div");
     tickerContainer.id = _100011100.id + "_tickerContainer_" + this._100101010;
-    tickerContainer.style.overflow = "hidden";
-    tickerContainer.style.width = "100%";
+    tickerContainer.style. flow = "hidden";
+    // tickerContainer.style.width = "100%";
     tickerContainer.onclick = Toggle_10110001;
     _100011100.appendChild(tickerContainer);
     this.Start_10110001(tickerContainer.id, this._100101010, _100110001TagName);
@@ -30,25 +30,25 @@ _10110001.prototype._10110110 = true;
 _10110001.prototype.Start_10110001 = Start_10110001;
 _10110001.prototype._10111010 = _10111010;
 function Start_10110001(divID, tickerIndex, _100110001TagName) {
-    var _10110000 = divID + "__10101110_" + tickerIndex;
-    var _10101111 = navigator.userAgent.toLowerCase();
-    if (
-        _10101111.indexOf("firefox") != -1 ||
-        _10101111.indexOf("safari") != -1
-    ) {
-        document.getElementById(divID).innerHTML =
-            "<table  cellspacing='0' cellpadding='0' width='100%'><tr><td nowrap='nowrap'><span style='' id='" +
-            _10110000 +
-            "' width='100%'>&nbsp;</span></td></tr></table>";
-    } else if (
-        _10101111.indexOf("msie") != -1 &&
-        _10101111.indexOf("opera") == -1
-    ) {
-        document.getElementById(divID).innerHTML =
-            "<div nowrap='nowrap' style='width:100%;'><span style='' id='" +
-            _10110000 +
-            "' width='100%'></span></div>";
-    }
+    // var _10110000 = divID + "__10101110_" + tickerIndex;
+    // var _10101111 = navigator.userAgent.toLowerCase();
+    // if (
+    //     _10101111.indexOf("firefox") != -1 ||
+    //     _10101111.indexOf("safari") != -1
+    // ) {
+    //     document.getElementById(divID).innerHTML =
+    //         "<table  cellspacing='0' cellpadding='0' width='100%'><tr><td nowrap='nowrap'><span style='' id='" +
+    //         _10110000 +
+    //         "' width='100%'>&nbsp;</span></td></tr></table>";
+    // } else if (
+    //     _10101111.indexOf("msie") != -1 &&
+    //     _10101111.indexOf("opera") == -1
+    // ) {
+    //     document.getElementById(divID).innerHTML =
+    //         "<div nowrap='nowrap' style='width:100%;'><span style='' id='" +
+    //         _10110000 +
+    //         "' width='100%'></span></div>";
+    // }
     document.getElementById(_10110000).innerHTML = _10101101_101001011;
     this._10110010 = divID;
     this._10110001DivID = _10110000;
