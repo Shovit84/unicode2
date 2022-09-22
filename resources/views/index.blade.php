@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{asset('js/unicode.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('js/unicode.js') }}"></script>
 </head>
 
 <body>
@@ -21,8 +21,7 @@
         <div class="container">
             <div class="wrapper">
                 <div class="text-input">
-                    <textarea spellcheck="false" name="unicodenepali1" class="UnicodeNepali" id="input" class="from-text"
-                        placeholder="Enter text"></textarea>
+                    <textarea spellcheck="false" class="UnicodeNepali" id="input" placeholder="Enter text"></textarea>
                 </div>
 
             </div>
